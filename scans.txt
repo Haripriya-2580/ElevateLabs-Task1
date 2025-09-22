@@ -1,0 +1,34 @@
+# Nmap 7.95 scan initiated Mon Sep 22 11:35:04 2025 as: /usr/lib/nmap/nmap -sS -p- -T4 --open -oN scans.txt 10.0.2.0/24
+Nmap scan report for 10.0.2.2
+Host is up (0.056s latency).
+Not shown: 62647 closed tcp ports (reset), 2871 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+445/tcp   open  microsoft-ds
+2323/tcp  open  3d-nfsd
+5040/tcp  open  unknown
+7070/tcp  open  realserver
+27275/tcp open  unknown
+49328/tcp open  unknown
+49664/tcp open  unknown
+49665/tcp open  unknown
+49668/tcp open  unknown
+49669/tcp open  unknown
+49672/tcp open  unknown
+49679/tcp open  unknown
+63275/tcp open  unknown
+63709/tcp open  unknown
+64145/tcp open  unknown
+64236/tcp open  unknown
+MAC Address: 52:55:0A:00:02:02 (Unknown)
+
+Nmap scan report for 10.0.2.3
+Host is up (0.055s latency).
+Not shown: 65534 filtered tcp ports (net-unreach)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 52:55:0A:00:02:03 (Unknown)
+
+# Nmap done at Mon Sep 22 11:41:13 2025 -- 256 IP addresses (3 hosts up) scanned in 369.30 seconds
